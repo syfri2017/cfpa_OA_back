@@ -1,6 +1,6 @@
 #server
 server:
-  port: 8809
+  port: 8810
 user:
   token:
     period: 3600000
@@ -133,9 +133,9 @@ spring:
     datasource:
       type: com.alibaba.druid.pool.DruidDataSource
       driverClassName: oracle.jdbc.OracleDriver
-      url: jdbc:oracle:thin:@10.119.119.205:1521/XFXHDB_NEW
-      username: XFXHZH
-      password: XFXHZH
+      url: jdbc:oracle:thin:@10.119.119.205:1521/XFXHDB
+      username: XFXHOA
+      password: XFXHOA
 
   ##########################################################
   ###################  正式环境的profile  ###################

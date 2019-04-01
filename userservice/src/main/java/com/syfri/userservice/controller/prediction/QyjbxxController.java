@@ -138,7 +138,7 @@ public class QyjbxxController extends BaseController<QyjbxxVO> {
                 dataList.get(i).setZwgsmc(dataList.get(i).getYwgsmc());
             }
         }
-        this.doExportExcel(request, response, fileName, sheetName, title, columns, dataList);
+//        this.doExportExcel(request, response, fileName, sheetName, title, columns, dataList);
     }
 
     //add by yushch 20181010
@@ -375,7 +375,7 @@ public class QyjbxxController extends BaseController<QyjbxxVO> {
                 dataList.get(i).setZwgsmc(dataList.get(i).getYwgsmc());
             }
         }
-        this.doExportExcel(request, response, fileName, sheetName, title, columns, dataList);
+//        this.doExportExcel(request, response, fileName, sheetName, title, columns, dataList);
     }
 
     /**********************************************************************************************
