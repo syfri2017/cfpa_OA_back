@@ -127,7 +127,7 @@ public class QyzwyxController extends BaseController<QyzwyxVO> {
 
         //获取数据
         List<QyzwyxVO> dataList = qyzwyxService.dofindtjfx(new QyzwyxVO());
-//        this.doExportExcel(request, response, fileName, sheetName, title, columns, dataList);
+        this.doExportExcel(request, response, fileName, sheetName, title, columns, dataList);
     }
 
     //add by rliu 20181228
@@ -145,7 +145,7 @@ public class QyzwyxController extends BaseController<QyzwyxVO> {
 
         //获取数据
         List<QyzwyxVO> dataList = qyzwyxService.dofindtjfxsj(new QyzwyxVO());
-//        this.doExportExcel(request, response, fileName, sheetName, title, columns, dataList);
+        this.doExportExcel(request, response, fileName, sheetName, title, columns, dataList);
     }
 
     @ApiOperation(value = "产品类型下企业信息", notes = "查询")
