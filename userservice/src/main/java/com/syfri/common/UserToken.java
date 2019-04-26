@@ -1,4 +1,4 @@
-package com.syfri.userservice.common;
+package com.syfri.common;
 
 import com.syfri.userservice.model.system.CurrentUser;
 

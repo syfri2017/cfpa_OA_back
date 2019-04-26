@@ -1,4 +1,4 @@
-package com.syfri.userservice.common;
+package com.syfri.common;
 
 public class Response {
 

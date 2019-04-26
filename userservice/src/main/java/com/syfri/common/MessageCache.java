@@ -1,4 +1,4 @@
-package com.syfri.userservice.common;
+package com.syfri.common;
 
 import com.google.common.collect.Maps;
 import org.apache.commons.lang.StringUtils;

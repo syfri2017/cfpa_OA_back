@@ -1,4 +1,4 @@
-package com.syfri.userservice.common;
+package com.syfri.common;
 
 import com.alibaba.fastjson.JSON;
 import org.apache.commons.lang.StringUtils;
