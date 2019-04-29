@@ -56,6 +56,7 @@ public class AccessFilter implements Filter {
 		urlPatterns.add("/doExp");
 		urlPatterns.add("api-docs");
 		urlPatterns.add("static");
+		urlPatterns.add("/test/findById");
 	}
 
 	@Override

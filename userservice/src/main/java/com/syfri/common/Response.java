@@ -1,8 +1,15 @@
 package com.syfri.common;
 
-public class Response {
+import java.io.Serializable;
 
-	private String code;
+public class Response  implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+
+	public final static String RESSUCCESS = "00000000";
+	public final static String RESFAIL = "11111111";
+
+	private String code = RESSUCCESS;
 	private String message;
 	private Object data;
 

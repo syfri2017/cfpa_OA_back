@@ -3,7 +3,6 @@ package com.syfri.userservice.service.impl.prediction;
 import com.itextpdf.text.BaseColor;
 import com.itextpdf.text.DocumentException;
 import com.itextpdf.text.pdf.*;
-import com.jfinal.template.ext.directive.Str;
 import com.syfri.userservice.config.properties.CpjsProperties;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.rendering.PDFRenderer;
@@ -35,8 +34,6 @@ import java.io.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
-import java.util.Random;
-import java.util.UUID;
 
 @Transactional(rollbackFor = {Exception.class, RuntimeException.class})
 @Service("qyjbxxService")

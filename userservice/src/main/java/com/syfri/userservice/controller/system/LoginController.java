@@ -1,8 +1,8 @@
 package com.syfri.userservice.controller.system;
 
-import com.syfri.userservice.common.MessageCache;
-import com.syfri.userservice.common.Response;
-import com.syfri.userservice.common.UserToken;
+import com.syfri.common.MessageCache;
+import com.syfri.common.Response;
+import com.syfri.common.UserToken;
 import com.syfri.userservice.model.system.*;
 import com.syfri.userservice.service.system.AccountService;
 import com.syfri.userservice.utils.Constants;

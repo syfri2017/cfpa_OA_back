@@ -5,8 +5,8 @@ import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.syfri.baseapi.model.ResultVO;
 import com.syfri.baseapi.utils.EConstants;
-import com.syfri.userservice.common.MessageCache;
-import com.syfri.userservice.common.UserToken;
+import com.syfri.common.MessageCache;
+import com.syfri.common.UserToken;
 import com.syfri.userservice.model.system.ResourceTree;
 import com.syfri.userservice.model.system.RoleVO;
 import io.swagger.annotations.Api;
@@ -15,7 +15,6 @@ import io.swagger.annotations.ApiOperation;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.*;
 
 import com.syfri.userservice.model.system.ResourceVO;

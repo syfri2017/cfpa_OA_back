@@ -3,7 +3,6 @@ package com.syfri.userservice.controller.prediction;
 import com.syfri.baseapi.model.ResultVO;
 import com.syfri.baseapi.utils.EConstants;
 import com.syfri.userservice.config.properties.CpjsProperties;
-import com.syfri.userservice.utils.Base64ImageUtil;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
